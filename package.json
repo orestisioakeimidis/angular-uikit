@@ -1,0 +1,60 @@
+{
+  "name": "angular-uikit",
+  "version": "0.1.0",
+  "description": "UIkit angular component library",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --port 8080",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orestisioakeimidis/angular-uikit.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "uikit",
+    "components"
+  ],
+  "author": "Orestis Ioakeimidis <o.ioakeimidis@gmail.com>",
+  "contributors": [
+    "Spyros Ioakeimidis <spyrosikmd@gmail.com> (http://www.spyros.io)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orestisioakeimidis/angular-uikit/issues"
+  },
+  "homepage": "https://github.com/orestisioakeimidis/angular-uikit#readme",
+  "dependencies": {
+    "@angular/common": "^2.4.3",
+    "@angular/compiler": "^2.4.3",
+    "@angular/core": "^2.4.3",
+    "@angular/platform-browser": "^2.4.3",
+    "@angular/platform-browser-dynamic": "^2.4.3",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.9",
+    "rxjs": "^5.0.3",
+    "zone.js": "^0.7.5"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "^2.5.40",
+    "@types/node": "^7.0.0",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.0.0-beta.18",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.26.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.1",
+    "tslib": "^1.5.0",
+    "typescript": "^2.1.5",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^2.4.0"
+  }
+}
